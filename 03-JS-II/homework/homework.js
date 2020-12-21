@@ -104,7 +104,7 @@ if(numero % i === 0 )
   }
 }
     return true;
-}
+} 
 
 
 // No modificar nada debajo de esta línea
