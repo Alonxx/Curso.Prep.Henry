@@ -138,6 +138,7 @@ function multiplicarArgumentos() {
   var total = 1;
   for(var i = 0; i < arguments.length; i++) {
     total = total * arguments[i];
+  
   }
   return total;
 }
