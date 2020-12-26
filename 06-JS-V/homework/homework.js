@@ -63,3 +63,26 @@ module.exports = {
   agregarMetodoPrototype,
   agregarStringInvertida
 };
+
+
+function prueba()
+{
+var lista = [1, 2, 3, 4];
+for (i in lista) {
+
+  for (j in lista) {
+
+    if(lista[i] + lista[j] == 5)
+    {
+    console.log(lista[i]+" "+lista[j]);
+    
+    }
+    else{console.log(lista[i]+" "+lista[j]);}
+    
+  }
+      
+  }
+ 
+}
+
+
